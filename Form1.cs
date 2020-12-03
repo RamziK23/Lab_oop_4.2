@@ -24,17 +24,11 @@ namespace Lab_oop_4._2
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             model.setValue(Decimal.ToInt32(numericUpDown1.Value));
-
-            //if (numericUpDown1.Value % 2 == 1)
-            //    numericUpDown1.Value = numericUpDown1.Value + 1;
-            //progressBar1.Value = Decimal.ToInt32(numericUpDown1.Value);
-            //textBox1.Text = numericUpDown1.Value.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(model.getValue().ToString());
-            //MessageBox.Show(numericUpDown1.Value.ToString());
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
@@ -42,12 +36,6 @@ namespace Lab_oop_4._2
             if (e.KeyCode == Keys.Enter)
             {
                 model.setValue(Int32.Parse(textBox1.Text));
-
-                //if (Int32.Parse(textBox1.Text) % 2 == 1)
-                //    textBox1.Text = (Int32.Parse(textBox1.Text) + 1).ToString();
-                //numericUpDown1.Value = Int32.Parse(textBox1.Text);
-                //progressBar1.Value = Int32.Parse(textBox1.Text);
-
             }
         }
         private void UpdateFromModel(object sender, EventArgs e) 
@@ -55,7 +43,6 @@ namespace Lab_oop_4._2
             textBox1.Text = model.getValue().ToString();
             numericUpDown1.Value = model.getValue();
             progressBar1.Value = model.getValue();
-
         }
     }
 
