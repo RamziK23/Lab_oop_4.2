@@ -1,0 +1,10 @@
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4.2.csprojAssemblyReference.cache
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4._2.Form1.resources
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4._2.Properties.Resources.resources
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4.2.csproj.GenerateResource.cache
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4.2.csproj.CoreCompileInputs.cache
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\bin\Debug\Lab_oop_4.2.exe.config
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\bin\Debug\Lab_oop_4.2.exe
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\bin\Debug\Lab_oop_4.2.pdb
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4.2.exe
+C:\Users\ramze\source\repos\Lab_oop_4.2\Lab_oop_4.2\obj\Debug\Lab_oop_4.2.pdb
