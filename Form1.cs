@@ -50,13 +50,18 @@ namespace Lab_oop_4._2
 
             }
         }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            model.setValue(trackBar1.Value, 2);
+        }
+
         private void UpdateFromModel(object sender, EventArgs e) 
         {
-           
+            trackBar1.Value = model.getValue();
             progressBar1.Value = model.getValue();
             if (model.getCheck() == 0) 
             {
-                numericUpDown1.Text = model.getValue().ToString();
                 textBox1.Text = (model.getValue() + 1).ToString();
             }
             else if (model.getCheck() == 1)
@@ -64,9 +69,14 @@ namespace Lab_oop_4._2
                 textBox1.Text = model.getValue().ToString();
                 numericUpDown1.Text = (model.getValue()-1).ToString();
             } 
+            else
+            {
+                numericUpDown1.Text = model.getValue().ToString();
+                textBox1.Text = (model.getValue() + 1).ToString();
+            }
 
 
-               
+
 
 
         }
